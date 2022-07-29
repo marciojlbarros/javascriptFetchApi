@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Começando com fetch no Javascript</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container col-md-5">
+      <h3 class="text-center mt-3">Consulta CEP com Fetch API </h3>
+      <p class="text-center mb-5">Como consultar cep utilizando o viacep e a Fetch API do JavaScript.</p>
+        <form class="row g-3">
+          <div class="form-group font-weight-bold">
+            <label for="cep">CEP</label>
+            <input type="text" class="form-control" id="cep" maxlength="9" placeholder="Insira o seu CEP">
+          </div>
+          <div class="form-group font-weight-bold">
+            <label for="logradouro">Rua</label>
+            <input type="text" class="form-control" id="logradouro" placeholder="...">
+          </div>
+          <div class="form-group font-weight-bold">
+            <label for="bairro">Bairro</label>
+            <input type="text" class="form-control" id="bairro" placeholder="...">
+          </div>
+          <div class="form-group font-weight-bold">
+            <label for="localidade">Cidade</label>
+            <input type="text" class="form-control" id="localidade" placeholder="...">
+          </div>
+          <div class="form-group font-weight-bold mb-3">
+            <label for="uf">Estado</label>
+            <input type="text" class="form-control" id="uf" placeholder="...">
+          </div>
+
+          <div class="col-12 text-center">
+            <button class="btn btn-primary" type="reset">Limpar campos</button>
+          </div>
+        </form>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="src/js/main.js"></script>
+</body>
+</html>
